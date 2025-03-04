@@ -13,7 +13,7 @@ const PropertyDetailPage = () => {
             />
         </div>
 
-        <div className=" grid grid-cols-1 md:grid-cols-5 gap-4">
+        <div className=" mb-4 grid grid-cols-1 md:grid-cols-5 gap-4">
             <div className="py-6 pr-6 col-span-3">
                 <h1 className="mb-4 text-4xl">Protpery name</h1>
 
