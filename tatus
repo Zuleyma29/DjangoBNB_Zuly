@@ -1,0 +1,41 @@
+[33mcommit a95cb8984943f5cb527ac1e98fb8c7c71143b89c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Zuleyma Pelcastre Vargas <pelcastrevargasz@gmail.com>
+Date:   Mon Mar 3 18:35:32 2025 -0600
+
+    06 Detail page for properties
+
+[33mcommit 8315ae16a200f41427b32b1e78f5bce63dc0cbc1[m
+Author: Zuleyma Pelcastre Vargas <pelcastrevargasz@gmail.com>
+Date:   Thu Feb 27 10:13:31 2025 -0600
+
+    05 List properties on the front page
+
+[33mcommit 7bc82960f0944d47fc985ef70b35162af4b577b9[m
+Author: Zuleyma Pelcastre Vargas <pelcastrevargasz@gmail.com>
+Date:   Wed Feb 26 19:21:31 2025 -0600
+
+    04 Categories on the front page
+
+[33mcommit d6e9f1bd0ac570f6d47000cac729aa86a80d902a[m
+Author: Zuleyma Pelcastre Vargas <pelcastrevargasz@gmail.com>
+Date:   Wed Feb 26 12:55:01 2025 -0600
+
+    03 Code for nav bar user
+
+[33mcommit 73ef604594855d14dac1722bbe183e33bcf2af98[m
+Author: Zuleyma Pelcastre Vargas <pelcastrevargasz@gmail.com>
+Date:   Wed Feb 26 12:01:48 2025 -0600
+
+    02 Code for nav bar
+
+[33mcommit ead93fcae06226dc5cd468b64bf15bd2613500f4[m
+Author: Zuleyma Pelcastre Vargas <pelcastrevargasz@gmail.com>
+Date:   Tue Feb 25 09:42:41 2025 -0600
+
+    01 Install and set up Next.js and create project
+
+[33mcommit a9b0a8b34a64f19e8b3e2e0ad5c4d4644e6219d4[m
+Author: Zuleyma Pelcastre Vargas <pelcastrevargasz@gmail.com>
+Date:   Mon Feb 24 09:42:44 2025 -0600
+
+    Initial commit from Create Next App
