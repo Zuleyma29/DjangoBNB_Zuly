@@ -16,7 +16,7 @@ export async function handleLogin(useId: string, accessToken: string, refreshTok
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
         maxAge: 60 * 60, // 60 minutes
-        path:'/'
+        path:'/' 
 
     });
 
