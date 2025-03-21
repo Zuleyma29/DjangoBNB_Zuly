@@ -28,3 +28,18 @@ export async function handleLogin(useId: string, accessToken: string, refreshTok
 
     });
 }
+
+export async function resetAuthCookies() {
+    (await cookies()).set('session_user', '');
+    (await cookies()).set('session_access_token', '');
+    (await cookies()).set('session_refresh_token', '');
+}
+
+//
+// Get data
+
+export async function getUserId() {
+    const userId = (await cookies()).get('session_userid')?.value
+    return userId ? userId: null
+    
+}
