@@ -18,7 +18,7 @@ export async function handleRefresh() {
         }
     })
         .then(response => response.json())
-        .then(async (json) => {
+        .then( async (json) => {
             console.log('Response - Refresh:', json);
 
             if (json.access) {
