@@ -92,6 +92,7 @@ const ReservationSidebar:React.FC<ReservationSidebarProps> = ({
 
             dates = [...dates, ...range];
         })
+        
         setBookedDates(dates);
     }
 
