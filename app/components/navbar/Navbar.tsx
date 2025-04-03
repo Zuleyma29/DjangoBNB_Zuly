@@ -44,4 +44,4 @@ import AddPropertyButton from './AddPropertyButton';
     )
  }
 
- export default Navbar;
+ export default Navbar; 
