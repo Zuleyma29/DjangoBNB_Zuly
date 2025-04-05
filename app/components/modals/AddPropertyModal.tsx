@@ -103,7 +103,7 @@ const AddPropertyModal = () => {
         <>
             {currentStep == 1 ? (
                 <>
-                    <h2 className='mb-6 text-2xl'>Choose category</h2>
+                    <h2 className='mb-6 text-2xl'>Elegir categoria</h2>
 
                     <Categories
                         dataCategory={dataCategory}
@@ -117,11 +117,11 @@ const AddPropertyModal = () => {
                 </>
             ) : currentStep == 2 ? (
                 <>
-                    <h2 className='mb-6 text-2xl'>Describe your place</h2>
+                    <h2 className='mb-6 text-2xl'>Describe el lugar</h2>
 
                     <div className='pt-3 pb-6 space-y-4'>
                         <div className='flex flex-col space-y-2'>
-                            <label>Title</label>
+                            <label>Título</label>
                             <input
                                 type="text"
                                 value={dataTitle}
@@ -131,7 +131,7 @@ const AddPropertyModal = () => {
                         </div>
 
                         <div className='flex flex-col space-y-2'>
-                            <label>Description</label>
+                            <label>Descripción</label>
                             <textarea
                                 value={dataDescription}
                                 onChange={(e) => setDataDescription(e.target.value)}
@@ -153,11 +153,11 @@ const AddPropertyModal = () => {
                 </>
             ) : currentStep == 3 ? (
                 <>
-                    <h2 className='mb-6 text-2xl'>Details</h2>
+                    <h2 className='mb-6 text-2xl'>Detalles</h2>
 
                     <div className='pt-3 pb-6 space-y-4'>
                         <div className='flex flex-col space-y-2'>
-                            <label>Price per night</label>
+                            <label>Precio por noche</label>
                             <input
                                 type="number"
                                 value={dataPrice}
@@ -167,7 +167,7 @@ const AddPropertyModal = () => {
                         </div>
 
                         <div className='flex flex-col space-y-2'>
-                            <label>Bedrooms</label>
+                            <label>Dormitorios</label>
                             <input
                                 type="number"
                                 value={dataBedrooms}
@@ -177,7 +177,7 @@ const AddPropertyModal = () => {
                         </div>
 
                         <div className='flex flex-col space-y-2'>
-                            <label>Bathrooms</label>
+                            <label>Baños</label>
                             <input
                                 type="number"
                                 value={dataBathrooms}
@@ -187,7 +187,7 @@ const AddPropertyModal = () => {
                         </div>
 
                         <div className='flex flex-col space-y-2'>
-                            <label>Maximum number of guests</label>
+                            <label>Número maximo de huespedes</label>
                             <input
                                 type="number"
                                 value={dataGuests}

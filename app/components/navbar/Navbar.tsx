@@ -19,7 +19,7 @@ import AddPropertyButton from './AddPropertyButton';
                         <Image
                             src="/logo.png"
                             alt="DjangoBnb logo"
-                            width ={120}
+                            width ={180}
                             height={38}
                         />
                     </Link>

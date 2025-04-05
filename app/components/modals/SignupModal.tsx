@@ -25,7 +25,6 @@ const SignupModal = () => {
 
     const submitSignup = async () => {
         const formData ={
-            name:'stein',
             email:email,
             password1: password1,
             password2: password2
@@ -75,12 +74,10 @@ const SignupModal = () => {
                  <CustomButton
                     label="Submit"
                     onClick={submitSignup}
+                    
                 />
-                
             </form>
         </>
-
-
     )
 
     return(

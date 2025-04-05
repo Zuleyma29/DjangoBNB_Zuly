@@ -6,7 +6,6 @@ import { differenceInDays, eachDayOfInterval, format} from "date-fns";
 import DatePicker from "../forms/Calendar";
 import apiService from "@/app/services/apiService";
 import useLoginModal from "@/app/hooks/useLoginModal";
-import React from "react";
 
 const initialDateRange = {
     startDate: new Date(),
@@ -20,7 +19,7 @@ export type Property ={
 }
 
 interface ReservationSidebarProps {
-    userId : string | null
+    userId : string | null,
     property: Property
 }
  
@@ -126,7 +125,7 @@ const ReservationSidebar:React.FC<ReservationSidebarProps> = ({
 
     return(
         <aside className="mt-6 p-6 col-span-2 rounded-xl border border-gray-300 shadow-xl">
-            <h2 className="mb-5 text-2xl">${property.price_per_night} per night</h2>
+            <h2 className="mb-5 text-2xl">${property.price_per_night} por noche</h2>
 
             <DatePicker
                 value={dateRange}
@@ -135,7 +134,7 @@ const ReservationSidebar:React.FC<ReservationSidebarProps> = ({
             />
 
             <div className="mb-6 p-3 border border-gray-400 rounded-xl">
-                <label className="mb-2 block font-bold text-xs">Guests</label>
+                <label className="mb-2 block font-bold text-xs">Huespedes</label>
 
                 <select 
                     value={guests}
@@ -151,17 +150,17 @@ const ReservationSidebar:React.FC<ReservationSidebarProps> = ({
             <div 
                 onClick={performBooking}
                 className="w-full mb-6 py-6 text-center text-white bg-airbnb hover:bg-airbnb-dark rounded-xl"
-            >   Book
+            >   Reservación 
             </div>
 
             <div className="mb-4 flex justify-between align-center">
-                <p>${property.price_per_night} * {nights} night</p>
+                <p>${property.price_per_night} * {nights} noche</p>
 
                 <p>{property.price_per_night * nights}</p>
             </div>
 
            <div className="mb-4 flex justify-between align-center font-bold">
-                <p>Djangobnb fee</p>
+                <p> Tarifa de Django bnb</p>
 
                 <p>${fee}</p>
             </div>

@@ -7,7 +7,7 @@ const MyReservationsPage = async () =>{
 
     return(
         <main className="max-w[1500px] mx-auto px-6 pb-6">
-            <h1 className=" my-6 text-2xl">My reservations</h1>
+            <h1 className=" my-6 text-2xl">Mi reservación</h1>
 
             <div className="space-y-4">
                 {reservations.map((reservation:any) =>{
@@ -27,17 +27,17 @@ const MyReservationsPage = async () =>{
                              <div className="col-span-1 mb:col-span-3 space-y-2">
                                 <h2 className="mb-4 text-xl">{reservation.property.title}</h2>
 
-                                <p className="mb-2"><strong>Check in date:</strong> {reservation.start_date} </p>
-                                <p className="mb-2"><strong>Check out date:</strong> {reservation.end_date} </p>
+                                <p className="mb-2"><strong>Fecha de entrada:</strong> {reservation.start_date} </p>
+                                <p className="mb-2"><strong>Fecha de salida:</strong> {reservation.end_date} </p>
                         
-                                <p className="mb-2"><strong>Number of nights:</strong> {reservation.number_of_nights} </p>
-                                <p className="mb-2"><strong>Total price</strong>${reservation.total_price}</p>
+                                <p className="mb-2"><strong>Número de noches:</strong> {reservation.number_of_nights} </p>
+                                <p className="mb-2"><strong>Precio total</strong>${reservation.total_price}</p>
 
                                 <Link 
                                     href={`/properties/${reservation.property.id}`}
                                     className="mt-6 inline-block cursor-pointer py-4 px-6 bg-airbnb text-white rounded-xl"
                                 >
-                                    Go to property
+                                    Ir a la propiedad
                                 </Link>
                             </div>
                         </div>

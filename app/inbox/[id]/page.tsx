@@ -1,6 +1,6 @@
 import { getUserId } from "../../lib/actions";
+import React from 'react'; // ,{ useState, useEffect }  no funciona con esto
 import apiService from "@/app/services/apiService";
-import React from 'react';  // le quite el,{ useState, useEffect }por que no funcional 
 import ConversationDetail from "@/app/components/inbox/ConversationDetail";
 import { UserType } from "../page";
 import { getAccessToken } from "../../lib/actions";
@@ -33,6 +33,7 @@ const ConversationPage = async ({params }: {params: {id: string}}) =>{
             <ConversationDetail 
                 token={token}
                 userId={userId}
+                messages={conversation.messages}
                 conversation={conversation.conversation}
             />
         </main>

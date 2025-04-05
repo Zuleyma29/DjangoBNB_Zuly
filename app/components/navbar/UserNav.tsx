@@ -1,7 +1,8 @@
 'use client';
 
 import { useRouter } from "next/navigation";
-import React, { useState } from "react";
+import { useState } from "react";
+
 import MenuLink from "./MenuLink";
 import LogoutButton from "../LogoutButton";
 
@@ -63,7 +64,7 @@ const UserNav: React.FC<UserNavProps> = ({
                         }}
                     />
 
-<MenuLink 
+                    <MenuLink 
                         label='My reservation'
                         onClick={() => {
                             setIsOpen(false);

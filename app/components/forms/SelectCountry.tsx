@@ -2,7 +2,6 @@
 
 import Select from 'react-select';
 import useCountries from '@/app/hooks/useCountries';
-import { SSG_GET_INITIAL_PROPS_CONFLICT } from 'next/dist/lib/constants';
 
 export type SelectCountryValue = {
     label: string;
